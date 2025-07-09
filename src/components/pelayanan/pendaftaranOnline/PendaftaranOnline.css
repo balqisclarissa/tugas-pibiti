@@ -1,0 +1,23 @@
+.form-daftar-online input,
+.form-daftar-online select,
+.form-daftar-online textarea {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  padding: 8px;
+  margin: 15px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.form-daftar-online button {
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 900px;
+  background-color: rgb(34, 85, 143);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -5,7 +5,6 @@ const departemen = [
     {
         title: 'Penyakit Dalam',
         image: './penyakit-dalam.png',
-
     },
     {
         title: 'Anak (Pediatri)',
@@ -47,6 +46,7 @@ function Departemen() {
                         key={index} 
                         title={item.title} 
                         image={item.image}
+                        route={item.route}
                     />
                 ))}
             </div>

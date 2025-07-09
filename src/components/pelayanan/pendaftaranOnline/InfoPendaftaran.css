@@ -1,0 +1,33 @@
+.info-pendaftaran {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9fafb;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left; 
+}
+
+.info-pendaftaran h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+    text-align: center;
+}
+
+.info-pendaftaran ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-pendaftaran li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.info-pendaftaran li strong {
+    color: #1e40af;
+}

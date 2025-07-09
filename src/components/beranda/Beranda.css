@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  background-color: #e6e6e6;
+}
+
+.tentang-kami {
+  list-style-type: none;
+  margin-top: 85px;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.title1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.title2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.paragraf1 {
+  text-align: justify;
+  margin: 30px 35px 5px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraf2 {
+  text-align: justify;
+  margin-bottom: 5px;
+  margin-right: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraf3 {
+  text-align: justify;
+  margin-bottom: 40px;
+  margin-right: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.emergency {
+  list-style-type: none;
+  color: white;
+  margin-left: 40%;
+  margin-top: -25px;
+  background-color: rgb(34, 85, 143);
+  border-radius: 25px;
+  width: 200px;
+  padding: 5px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  font-weight: 550;
+}

@@ -3,22 +3,25 @@ import './CardPelayanan.css';
 
 const layanan = [
     {
-        title: 'Pendaftaran Online',
+        title: 'Pendaftaran Online', route: 'pendaftaran',
     },
     {
-        title: 'Riwayat Pelayanan',
+        title: 'Info Pendaftaran', route: 'infopendaftaran',
     },
     {
-        title: 'Info Pembayaran',
+        title: 'Riwayat Pelayanan', route: 'riwayat',
     },
     {
-        title: 'Jadwal Operasi',
+        title: 'Info Pembayaran', route: 'pembayaran',
     },
     {
-        title: 'Ketersediaan Kamar',
+        title: 'Jadwal Operasi', route: 'operasi',
     },
     {
-        title: 'Jadwal Obat',
+        title: 'Ketersediaan Kamar', route: 'ketersediaan',
+    },
+    {
+        title: 'Jadwal Obat', route: 'obat',
     },
 ];
 
@@ -31,6 +34,7 @@ function Pelayanan() {
                     <CardPelayanan 
                         key={index} 
                         title={item.title} 
+                        route={item.route}
                     />
                 ))}
             </div>

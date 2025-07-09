@@ -1,3 +1,5 @@
+import './Beranda.css'
+
 function Beranda() {
     return (
         <div className="main">

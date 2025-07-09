@@ -1,0 +1,47 @@
+.container-pembayaran {
+    padding: 40px;
+    background-color: #f4f8fb;
+    min-height: 100vh;
+}
+
+.grid-pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-pembayaran {
+    background-color: #ffffff;
+    border: 2px solid #22558f;
+    border-radius: 16px;
+    padding: 20px 25px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card-pembayaran:hover {
+    transform: scale(1.03);
+}
+
+.card-pembayaran h3 {
+    font-size: 18px;
+    color: #22558f;
+    margin-bottom: 8px;
+}
+
+.card-pembayaran p {
+    margin: 6px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.card-pembayaran a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 8px;
+}

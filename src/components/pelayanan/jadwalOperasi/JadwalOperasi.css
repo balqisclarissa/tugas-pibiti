@@ -1,0 +1,46 @@
+/* Container utama komponen operasi */
+.container-operasi {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid-operasi {
+    display: grid;
+    gap: 10px;
+    place-items: center;
+}
+
+/* Kartu jadwal operasi */
+.card-operasi {
+    background-color: #fff;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-operasi:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card-operasi p {
+  margin: 10px ;
+  font-size: 15px;
+  color: #333;
+}
+
+.card-operasi p:first-child {
+  font-weight: bold;
+  font-size: 19px;
+  color: #1e3a8a;
+}
+
+.card-operasi p:last-child {
+  font-weight: 500;
+  color: #047857;
+}
